@@ -1,0 +1,28 @@
+{% extends 'info/header.htm' %}
+{% load static %}
+{% block title %}ホーム{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <h2 class="mt-3">サークル一覧</h2>
+    </div>
+    <div class="row">
+        <div class="card-columns">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top rounded-circle" src="img/デジクリ.jpg" alt="ユーザー画像">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="digicre.html">デジクリ</a></h5>
+                    <p class="card-text">デジタルでクリエーションするサークルです。<br>
+                        プログラミング・イラスト・3DCG・DTM・Movieなど様々な創作をします。
+                    </p>
+                    <a href="" class="badge badge-pill badge-primary">文化</a>
+                    <a href="" class="badge badge-pill badge-info">サークル</a>
+                    <a href="" class="badge badge-info">コンピュータ</a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+{% endblock %}

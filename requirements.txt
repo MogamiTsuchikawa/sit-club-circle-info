@@ -1,0 +1,5 @@
+django == 3.0.3
+django-markdownx
+gunicorn == 20.0.4
+pillow
+mysqlclient == 1.4.6
